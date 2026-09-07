@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "proj-default-1",
+      "name": "Stock Batch 01",
+      "description": "Initial stock batch for multi-platform metadata generation",
+      "marketplace": "adobe",
+      "assetType": "photo",
+      "titleSettings": {
+        "mode": "seo_balanced",
+        "length": "medium",
+        "customPrompt": "Focus on clear commercial search intent and subject detail"
+      },
+      "keywordSettings": {
+        "targetCount": 40,
+        "minCount": 25,
+        "maxCount": 49,
+        "strategy": "balanced"
+      },
+      "items": [],
+      "createdAt": "2026-09-06T06:02:18.451Z",
+      "updatedAt": "2026-09-06T07:34:38.502Z"
+    }
+  ],
+  "apiKeys": [],
+  "stats": {
+    "totalRequests": 0,
+    "successfulRequests": 0,
+    "failedRequests": 0,
+    "rateLimitedRequests": 0,
+    "imagesProcessed": 0,
+    "avgProcessingTimeMs": 0
+  },
+  "settings": {
+    "concurrency": 3,
+    "preferredProvider": "auto",
+    "groqModel": "llama-3.2-11b-vision-preview",
+    "geminiModel": "gemini-3.1-flash-lite",
+    "retryCount": 2
+  }
+}
